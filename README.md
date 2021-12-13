@@ -11,6 +11,10 @@ better compatible with the way of postering at the conferences).
 
 Prebuilt PDFs can be seen in [build/](build/).
 
+| Horizontal | Vertical |
+|------------|----------|
+| ![Horizontal version](build/posterh.png) | ![Vertical version](build/posterv.png) |
+
 ### How-To
 
 Take the poster template, compile with double `lualatex` (or switch to the
@@ -41,8 +45,8 @@ This class defines the following:
 - several other helpers, mainly some stuff for simplified background drawing.
 
 For now, see the comments in `posterv.tex` for a more precise reference. Some
-study of the Tikz manual is higly recommended (reading that manual is highly
-recommended in any case).
+study of the Tikz manual is highly recommended (reading that particular manual
+is highly recommended in any case, even if you're not after posters).
 
 ### Future
 
