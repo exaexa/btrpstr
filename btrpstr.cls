@@ -8,6 +8,7 @@
 \RequirePackage{pgfopts}
 \RequirePackage{ifthen}
 \RequirePackage{geometry}
+\RequirePackage[normalem]{ulem}
 
 \RequirePackage{tikz}
 \usetikzlibrary{calc,fit}
@@ -19,6 +20,8 @@
 %   separately, like in baposter)
 % - `above` option instead of `bottom`. Generally, a more flexible way to
 %   specify the posterbox/headerbox position would be cool.
+
+\def\ULthickness{0.1ex}
 
 \pgfqkeys{/btrpstr}{
   geometry/.code=\geometry{#1},
